@@ -1,22 +1,22 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "story-game",
+  "version": "0.0.0",
+  "description": "cool story app",
   "keywords": [
-    "OpenShift",
-    "Node.js",
+    "story",
+    "app",
     "application",
-    "openshift"
+    "android"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "RCB1",
+    "email": "@",
+    "url": "@"
   },
-  "homepage": "http://www.openshift.com/",
+  "homepage": "@",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/tde3000/story"
   },
 
   "engines": {
@@ -25,7 +25,11 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "express"    : "~4.7.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
   },
   "devDependencies": {},
   "bundleDependencies": [],
