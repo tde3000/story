@@ -36,7 +36,9 @@ apiRouter.get('/', function(req, res) {
 apiRouter.route('/users')
     .post(function(req, res) {
         var user = new User();      // create a new instance of the User model
+        console.log(req.body);
         user.name = req.body.name;  // set the users name (comes from the request)
+        console.log(user.name);
 
         // save the user and check for errors
         user.save(function(err) {
